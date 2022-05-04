@@ -14,13 +14,7 @@ class Navbarbigsight extends Component {
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav className="me-auto my-2 my-lg-0 BigSightnavbarMenu-container" style={{ maxHeight: "100px" }} navbarScroll>
-                            <NavDropdown title="Resources" id="navbarScrollingDropdown">
-                                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action5">Something else here</NavDropdown.Item>
-                            </NavDropdown>
-                            <Nav.Link className="BigSightNavbarMenuMarginLeft">
+                            <Nav.Link>
                                 <Link
                                     className="BigSightNavbarMenu"
                                     to={{
@@ -41,11 +35,31 @@ class Navbarbigsight extends Component {
                                 </Link>
                             </Nav.Link>
 
-                            <NavDropdown className="BigSightNavbarDropdownResources-Container" title="Resources" id="">
-                                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action5">Something else here</NavDropdown.Item>
+                            <NavDropdown className="BigSightNavbarMenuMarginLeft" title={<span className="BigSightNavbarMenuDropdown">Resources</span>} id="navbarScrollingDropdown">
+                                <Link
+                                    className="BigSightDropDown-Menu1"
+                                    to={{
+                                        pathname: `notset`,
+                                    }}
+                                >
+                                    <p>Documentation</p>
+                                </Link>
+                                <Link
+                                    className="BigSightDropDown-Menu1"
+                                    to={{
+                                        pathname: `/big-sight/FAQ`,
+                                    }}
+                                >
+                                    <p className="BigSightDropDown-Menu1-Row2">FAQ</p>
+                                </Link>
+                                <Link
+                                    className="BigSightDropDown-Menu1"
+                                    to={{
+                                        pathname: `notset`,
+                                    }}
+                                >
+                                    <p className="BigSightDropDown-Menu1-Row3">Support</p>
+                                </Link>
                             </NavDropdown>
                             <Nav.Link href="#" disabled>
                                 Link
