@@ -1,0 +1,41 @@
+#navbarBigSight {
+    height: 94px;
+    width: 100vw;
+    box-shadow: 0 4px 4px 0px rgb(0, 0, 0, 0.11);
+    display: flex;
+    background-color: white;
+}
+
+.BigSightNavbarLogo {
+    width: 148px;
+    height: 87px;
+    /* margin-left: 164px; */
+    margin-top: 9px;
+}
+
+.BigSightnavbarMenu-container {
+    margin-left: 174px;
+}
+
+.BigSightNavbarMenu {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: poppins-500;
+    position: relative;
+    top: 5px;
+}
+
+.BigSightNavbarMenu:hover {
+    color: #d23d3d;
+}
+
+.BigSightNavbarMenuMarginLeft {
+    margin-left: 33px;
+}
+
+.BigSightNavbarDropdownResources-Container {
+    color: red;
+    --bs--scroll-height: 100px;
+}
