@@ -9,7 +9,6 @@
 .BigSightNavbarLogo {
     width: 148px;
     height: 87px;
-    /* margin-left: 164px; */
     margin-top: 9px;
 }
 
@@ -43,21 +42,81 @@
     font-family: poppins-500;
 }
 
+.BigSightNavbarMenuDropdown:hover {
+    color: #d23d3d;
+}
+
 .BigSightDropDown-Menu1 {
     color: black;
     font-size: 13px;
     text-decoration: none;
     letter-spacing: 0.5px;
     font-family: poppins-500;
-    position: relative;
-    left: 20px;
 }
 
-.BigSightDropDown-Menu1-Row2{
-    position: relative;
-    bottom: 10px;
+.BigSightDropDown-Menu1:hover {
+    color: #d23d3d;
 }
-.BigSightDropDown-Menu1-Row3 {
-    position: relative;
-    bottom: 20px;
+
+.dropdown-item {
+    height: 25px;
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+    color: blue;
+}
+
+.DropdownProduct > .dropdown-menu {
+    width: 273px;
+}
+
+.rowDropDown {
+    height: 25px;
+}
+
+.NavbarButton-Container {
+    padding-top: 5px;
+    padding-left: 33px;
+}
+
+@media screen and (max-width: 992px) {
+    #navbarBigSight {
+        height: auto;
+        margin-top: -40px;
+    }
+    .BigSightNavbarLogo {
+        transform: scale(0.8);
+    }
+    #navbarBigSight > .container {
+        position: relative;
+        top: 20px;
+    }
+    .DropdownProduct > .dropdown-menu {
+        width: 100%;
+    }
+    .BigSightnavbarMenu-container {
+        margin-left: 0px;
+    }
+    .BigSightNavbarMenuMarginLeft {
+        margin-left: 0px;
+    }
+    .NavbarButton-Container {
+        padding-top: 5px;
+        padding-left: 0px;
+        padding-bottom: 10px;
+        width: 300px;
+    }
+    .navbar-collapse {
+        margin-bottom: 20px;
+    }
+    .nav-link {
+        height: 40.3px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .NavbarButton-Container {
+        width: auto;
+    }
 }
