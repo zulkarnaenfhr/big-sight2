@@ -1,0 +1,6 @@
+.BigSightNavbar-Container {
+    position: fixed;
+    top: 0;
+    height: auto;
+    z-index: 2;
+}

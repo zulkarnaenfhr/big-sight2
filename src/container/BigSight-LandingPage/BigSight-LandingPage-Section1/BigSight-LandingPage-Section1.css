@@ -1,0 +1,47 @@
+#BigSightLandingPage-Section1 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.BigSightLandingPage-Section1-Left-Text1 {
+    width: 311px;
+    height: 30px;
+    font-family: poppins-500;
+    font-size: 30px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.BigSightLandingPage-Section1-Left-Text2 {
+    width: 598px;
+    height: 134px;
+    font-family: poppins-700;
+    font-size: 50px;
+    line-height: 134%;
+    text-transform: capitalize;
+}
+
+.BigSightLandingPage-Section1-Left-Text3 {
+    width: 321px;
+    height: 22px;
+    font-family: poppins-500;
+    font-size: 22px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.BigSightLandingPage-Section1-Button {
+    width: 321px;
+    height: 47px;
+    background: #d23d3d;
+    border-radius: 65px;
+    border: 1px solid #d23d3d;
+    font-family: poppins-700;
+    font-size: 17px;
+    color: white;
+    margin-top: 54px;
+}
