@@ -1,0 +1,50 @@
+#CardBigSightLandingPage {
+    width: 373px;
+    height: 353px;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 6px 3px rgba(207, 207, 207, 0.25);
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.CardBigSightLandingPage-Desc {
+    font-family: poppins-400;
+    text-align: justify;
+    font-size: 12px;
+    padding-left: 42px;
+    padding-right: 42px;
+}
+
+.CardBigSightLandingPage-Button {
+    width: 100px;
+    height: 35px;
+    background: #d23d3d;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    border: 1px solid transparent;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    transition: all 0.3s ease-in-out;
+}
+
+.CardBigSightLandingPage-Button:hover {
+    background-color: white;
+    color: #d23d3d;
+    border: 1px solid #d23d3d;
+}
+
+@media screen and (max-width: 1400px) {
+    #CardBigSightLandingPage {
+        transform: scale(0.95);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #CardBigSightLandingPage {
+        transform: scale(0.8);
+    }
+}

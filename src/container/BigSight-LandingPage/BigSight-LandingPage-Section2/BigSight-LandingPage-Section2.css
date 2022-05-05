@@ -1,0 +1,60 @@
+#BigSightLandingPage-Section2 {
+    min-height: 1097px;
+    background: #fbfbfb;
+    width: 100vw;
+}
+
+.BigSightLandingPage-Section2-Title-Container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.BigSightLandingPage-Section2-Title1 {
+    font-family: poppins-500;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #474747;
+    padding-top: 77px;
+}
+
+.BigSightLandingPage-Section2-Title2 {
+    font-family: poppins-700;
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #484848;
+    padding-top: 10px;
+}
+
+.BigSightLandingPage-Section2-Card-Container {
+    margin-top: 40px;
+}
+
+.BigSightLandingPage-Section2-ColumnContainer {
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+    .BigSightLandingPage-Section2-Title1 {
+        font-size: 18px;
+    }
+    .BigSightLandingPage-Section2-Title2 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .BigSightLandingPage-Section2-Title1 {
+        font-size: 16px;
+    }
+    .BigSightLandingPage-Section2-Title2 {
+        font-size: 32px;
+    }
+}
