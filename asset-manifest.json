@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/big-sight2/static/css/main.82673c74.css",
-    "main.js": "/big-sight2/static/js/main.53199333.js",
+    "main.css": "/big-sight2/static/css/main.9037e651.css",
+    "main.js": "/big-sight2/static/js/main.c05126d8.js",
     "static/js/787.954dd6c8.chunk.js": "/big-sight2/static/js/787.954dd6c8.chunk.js",
     "static/media/Poppins-Light.ttf": "/big-sight2/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
     "static/media/Poppins-Regular.ttf": "/big-sight2/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
@@ -12,14 +12,20 @@
     "static/media/NunitoSans-ExtraBold.ttf": "/big-sight2/static/media/NunitoSans-ExtraBold.910c4685fbefaf7b5410.ttf",
     "static/media/NunitoSans-Bold.ttf": "/big-sight2/static/media/NunitoSans-Bold.f2f18c2e01d2f39c18c9.ttf",
     "static/media/NunitoSans-SemiBold.ttf": "/big-sight2/static/media/NunitoSans-SemiBold.19a4b6461d900f20a9a6.ttf",
+    "static/media/Section-1-Picaso.png": "/big-sight2/static/media/Section-1-Picaso.e5c5892588e518bb388e.png",
+    "static/media/Section-1-Big-View.png": "/big-sight2/static/media/Section-1-Big-View.ebe3a5e79b9f77f182e8.png",
+    "static/media/Section-1-Legal-Analytic.png": "/big-sight2/static/media/Section-1-Legal-Analytic.b0a24d1cddf93dd56012.png",
+    "static/media/Section-1-Big-Score.png": "/big-sight2/static/media/Section-1-Big-Score.d60c5a9512057b988834.png",
+    "static/media/Section-1-Big-Box.png": "/big-sight2/static/media/Section-1-Big-Box.6e28808326cae48105ab.png",
+    "static/media/Section-1-SmartEye.png": "/big-sight2/static/media/Section-1-SmartEye.70c16beae645cbf09d83.png",
     "static/media/LogoBigSight.png": "/big-sight2/static/media/LogoBigSight.eec7379f9a20cd3af23f.png",
     "index.html": "/big-sight2/index.html",
-    "main.82673c74.css.map": "/big-sight2/static/css/main.82673c74.css.map",
-    "main.53199333.js.map": "/big-sight2/static/js/main.53199333.js.map",
+    "main.9037e651.css.map": "/big-sight2/static/css/main.9037e651.css.map",
+    "main.c05126d8.js.map": "/big-sight2/static/js/main.c05126d8.js.map",
     "787.954dd6c8.chunk.js.map": "/big-sight2/static/js/787.954dd6c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82673c74.css",
-    "static/js/main.53199333.js"
+    "static/css/main.9037e651.css",
+    "static/js/main.c05126d8.js"
   ]
 }
