@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/big-sight2/static/css/main.115beb72.css",
-    "main.js": "/big-sight2/static/js/main.7667e4c1.js",
+    "main.css": "/big-sight2/static/css/main.cced5ca5.css",
+    "main.js": "/big-sight2/static/js/main.06fa25c1.js",
     "static/js/787.954dd6c8.chunk.js": "/big-sight2/static/js/787.954dd6c8.chunk.js",
+    "static/media/Section-7-Background.png": "/big-sight2/static/media/Section-7-Background.77f730a2c7ce95b76b17.png",
+    "static/media/Section-7-Background2.png": "/big-sight2/static/media/Section-7-Background2.a86732993336a03410a9.png",
     "static/media/Poppins-Light.ttf": "/big-sight2/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
     "static/media/Poppins-Regular.ttf": "/big-sight2/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "static/media/Poppins-Medium.ttf": "/big-sight2/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
@@ -26,12 +28,12 @@
     "static/media/Section-1-SmartEye.png": "/big-sight2/static/media/Section-1-SmartEye.70c16beae645cbf09d83.png",
     "static/media/LogoBigSight.png": "/big-sight2/static/media/LogoBigSight.eec7379f9a20cd3af23f.png",
     "index.html": "/big-sight2/index.html",
-    "main.115beb72.css.map": "/big-sight2/static/css/main.115beb72.css.map",
-    "main.7667e4c1.js.map": "/big-sight2/static/js/main.7667e4c1.js.map",
+    "main.cced5ca5.css.map": "/big-sight2/static/css/main.cced5ca5.css.map",
+    "main.06fa25c1.js.map": "/big-sight2/static/js/main.06fa25c1.js.map",
     "787.954dd6c8.chunk.js.map": "/big-sight2/static/js/787.954dd6c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.115beb72.css",
-    "static/js/main.7667e4c1.js"
+    "static/css/main.cced5ca5.css",
+    "static/js/main.06fa25c1.js"
   ]
 }
