@@ -8,6 +8,8 @@ import BigsightLandingpageSection5 from "./BigSight-LandingPage-Section5/BigSigh
 import Blankpages from "../../components/BlankPages/BlankPages";
 import BigsightLandingpageSection6 from "./BigSight-LandingPage-Section6/BigSight-LandingPage-Section6";
 import BigsightLandingpageSection7 from "./BigSight-LandingPage-Section7/BigSight-LandingPage-Section7";
+import BeforeFooterBighSight from "../../components/Footer/BeforeFooterBighSight";
+import Footerbigsight from "../../components/Footer/Footer";
 
 class Bigsightlandingpage extends Component {
     render() {
@@ -24,6 +26,8 @@ class Bigsightlandingpage extends Component {
                 <BigsightLandingpageSection5 />
                 <BigsightLandingpageSection6 />
                 <BigsightLandingpageSection7 />
+                <BeforeFooterBighSight />
+                <Footerbigsight />
             </div>
         );
     }

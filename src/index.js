@@ -5,6 +5,7 @@ import BigsightRouter from "./BigSight-Router";
 import reportWebVitals from "./reportWebVitals";
 import "./components/FontStyling/FontStyle.css";
 import "./components/RemoveScrolling/RemoveScrolling.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

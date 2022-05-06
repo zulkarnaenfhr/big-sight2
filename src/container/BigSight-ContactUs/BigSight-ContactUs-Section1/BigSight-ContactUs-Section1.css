@@ -1,0 +1,138 @@
+#BigSightContactUs-Section1 {
+    min-height: 856px;
+    width: 100vw;
+    padding-top: 100px;
+    padding-bottom: 107px;
+}
+
+.BigSightContactUs-Section1-Content-Container {
+    margin-top: 66px;
+}
+
+.BigSight-ContactUs-Section1-Title {
+    font-family: poppins-700;
+    font-size: 50px;
+    line-height: 75px;
+    color: #484848;
+    align-items: center;
+    margin-top: 51px;
+}
+
+.BigSight-ContactUs-Section1-Desc {
+    font-family: poppins-400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.BigSight-ContactUs-Section1-Form-Container {
+    max-width: 688px;
+    height: 683px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    margin-left: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 25px;
+}
+
+.BigSight-ContactUs-Section1-Form-Container > label {
+    font-family: poppins-500;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    color: black;
+    margin-top: 10px;
+}
+
+.BigSight-ContactUs-Section1-Form-Container > input {
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #c2c2c2;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.BigSight-ContactUs-Section1-Form-Container > input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+    /* padding-left: 15px; */
+    font-family: poppins-500;
+    font-size: 14px;
+    position: relative;
+    bottom: 4px;
+    right: 4px;
+}
+
+.BigSight-ContactUs-Section1-Form-Container > input:focus::placeholder {
+    color: transparent;
+}
+
+.BigSight-ContactUs-Section1-Form-Container > textarea {
+    width: 100%;
+    height: 235px;
+
+    border: 1px solid #c2c2c2;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 6px;
+}
+
+.BigSight-ContactUs-Section1-Form-Container > textarea::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: poppins-500;
+    font-size: 14px;
+    position: relative;
+    top: 11px;
+}
+
+.BigSight-ContactUs-Section1-Form-Container > textarea:focus::placeholder {
+    color: transparent;
+}
+
+.BigSight-ContactUs-Section1-Form-Container > button {
+    width: 150px;
+    height: 60px;
+    background: #d23d3d;
+    border-radius: 30px;
+    font-size: 16px;
+    font-family: poppins-700;
+    color: white;
+    border: 1px solid transparent;
+    margin-top: 32px;
+    margin-left: 3px;
+}
+
+@media screen and (max-width: 1440px) {
+    .BigSight-ContactUs-Section1-Form-Container {
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .BigSightContactUs-Section1-Content-Container {
+        margin-top: 0px;
+    }
+    .BigSight-ContactUs-Section1-Title {
+        text-align: center;
+    }
+    .BigSight-ContactUs-Section1-Desc {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .BigSight-ContactUs-Section1-Title {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .BigSight-ContactUs-Section1-Desc {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .BigSight-ContactUs-Section1-Form-Container{
+        margin-top: -20px;
+    }
+}
