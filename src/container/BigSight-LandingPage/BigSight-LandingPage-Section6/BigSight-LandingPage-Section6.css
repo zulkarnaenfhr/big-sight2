@@ -24,7 +24,6 @@
 .BigSightLandingPage-Section6-Logo-Container {
     width: 910px;
     height: auto;
-    border: 1px solid red;
 }
 
 .BigSightLandingPage-Section6-Logo-Column-Container {
@@ -105,5 +104,8 @@
 
     .BigSightLandingPage-Section6-LogoAHM {
         transform: scale(0.9);
+    }
+    .BigSightLandingPage-Section6-Title2 {
+        margin-bottom: 40px;
     }
 }
