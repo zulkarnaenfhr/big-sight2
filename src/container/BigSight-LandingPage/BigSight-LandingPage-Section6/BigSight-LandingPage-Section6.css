@@ -1,0 +1,109 @@
+#BigSightLandingPage-Section6 {
+    min-height: 591px;
+    width: 100vw;
+    border: 1px solid black;
+}
+
+.BigSightLandingPage-Section6-Title {
+    font-family: poppins-700;
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #323232;
+    margin-top: 49px;
+}
+
+.BigSightLandingPage-Section6-Logo-Parent-Container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 46px;
+}
+
+.BigSightLandingPage-Section6-Logo-Container {
+    width: 910px;
+    height: auto;
+    border: 1px solid red;
+}
+
+.BigSightLandingPage-Section6-Logo-Column-Container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BigSightLandingPage-Section6-Logo-Column-Container-Row2-Left {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.BigSightLandingPage-Section6-LogoTelkom {
+    width: 184px;
+    height: 142px;
+}
+
+.BigSightLandingPage-Section6-LogoKemenkes {
+    width: 187px;
+    height: 87px;
+}
+
+.BigSightLandingPage-Section6-LogoSeknatNegara {
+    width: 192px;
+    height: 192px;
+}
+
+.BigSightLandingPage-Section6-LogoPertamina {
+    width: 266px;
+    height: 62px;
+}
+
+.BigSightLandingPage-Section6-LogoDishub {
+    width: 84px;
+    height: 97px;
+}
+
+.BigSightLandingPage-Section6-LogoAHM {
+    width: 203px;
+    height: 105px;
+}
+
+.BigSightLandingPage-Section6-Title2 {
+    margin-top: 64px;
+    font-family: poppins-700;
+    font-size: 30px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #323232;
+}
+
+@media screen and (max-width: 768px) {
+    .BigSightLandingPage-Section6-LogoTelkom {
+        transform: scale(0.9);
+    }
+
+    .BigSightLandingPage-Section6-LogoKemenkes {
+        transform: scale(0.9);
+    }
+
+    .BigSightLandingPage-Section6-LogoSeknatNegara {
+        transform: scale(0.9);
+    }
+
+    .BigSightLandingPage-Section6-LogoPertamina {
+        transform: scale(0.9);
+    }
+
+    .BigSightLandingPage-Section6-LogoDishub {
+        transform: scale(0.9);
+    }
+
+    .BigSightLandingPage-Section6-LogoAHM {
+        transform: scale(0.9);
+    }
+}
