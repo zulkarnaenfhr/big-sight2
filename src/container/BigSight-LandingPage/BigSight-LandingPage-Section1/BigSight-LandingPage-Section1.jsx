@@ -18,9 +18,6 @@ class BigsightLandingpageSection1 extends Component {
                                 </button>
                             </a>
                         </Col>
-                        <Col>
-                            <h1>maman</h1>
-                        </Col>
                     </Row>
                 </Container>
             </div>
