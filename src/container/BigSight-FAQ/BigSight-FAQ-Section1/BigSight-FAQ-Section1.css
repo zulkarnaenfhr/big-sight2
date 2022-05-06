@@ -1,0 +1,71 @@
+.accordion-button:not(.collapsed) {
+    color: rgba(211, 74, 74, 1);
+    background-color: white;
+    border: 1.5px solid rgba(211, 74, 74, 1);
+    /* border-radius: 10px; */
+}
+
+.accordion-button:focus {
+    border: 1.5px solid rgba(211, 74, 74, 1);
+    box-shadow: 0 0 0 0.25rem rgba(211, 74, 74, 0.1);
+    /* border-radius: 10px; */
+}
+
+.accordion-button {
+    border: 1.5px solid rgb(211, 74, 74);
+    /* border-radius: 10px; */
+    color: rgba(211, 74, 74, 1);
+    font-weight: 700;
+}
+
+
+/* Custom style */
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23ff4a4a' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23ff4a4a' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+    transform: scale(.7) !important;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 280px) {
+    #BigSight-Faq-section1 {
+        margin-top: 80px;
+        padding: 25px 0;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    #BigSight-Faq-section1 {
+        margin-top: 80px;
+        padding: 60px 0;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    #BigSight-Faq-section1 {
+        margin-top: 100px;
+        padding: 80px 0;
+    }
+}
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {}

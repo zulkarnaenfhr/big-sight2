@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import BigsightRouter from "./BigSight-Router";
 import reportWebVitals from "./reportWebVitals";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./components/FontStyling/FontStyle.css";
 import "./components/RemoveScrolling/RemoveScrolling.css";
 
