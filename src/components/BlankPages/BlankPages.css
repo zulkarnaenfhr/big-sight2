@@ -1,0 +1,8 @@
+#BlankPages {
+    width: 100vw;
+    height: 100vh;
+}
+
+#BlankPages > h1 {
+    text-align: center;
+}
