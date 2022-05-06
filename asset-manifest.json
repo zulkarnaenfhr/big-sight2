@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/big-sight2/static/css/main.cced5ca5.css",
-    "main.js": "/big-sight2/static/js/main.06fa25c1.js",
+    "main.css": "/big-sight2/static/css/main.027e1513.css",
+    "main.js": "/big-sight2/static/js/main.b7bc50e5.js",
     "static/js/787.954dd6c8.chunk.js": "/big-sight2/static/js/787.954dd6c8.chunk.js",
     "static/media/Section-7-Background.png": "/big-sight2/static/media/Section-7-Background.77f730a2c7ce95b76b17.png",
     "static/media/Section-7-Background2.png": "/big-sight2/static/media/Section-7-Background2.a86732993336a03410a9.png",
@@ -15,6 +15,7 @@
     "static/media/NunitoSans-Bold.ttf": "/big-sight2/static/media/NunitoSans-Bold.f2f18c2e01d2f39c18c9.ttf",
     "static/media/NunitoSans-SemiBold.ttf": "/big-sight2/static/media/NunitoSans-SemiBold.19a4b6461d900f20a9a6.ttf",
     "static/media/Section-6-Seknat-Negara.png": "/big-sight2/static/media/Section-6-Seknat-Negara.218917ee3a1efb85b84c.png",
+    "static/media/LogoRight.png": "/big-sight2/static/media/LogoRight.d489b2a87a4bf6693643.png",
     "static/media/Section-6-Kemenkes.png": "/big-sight2/static/media/Section-6-Kemenkes.8fdf64d7f3a3a1aeb43d.png",
     "static/media/Section-1-Picaso.png": "/big-sight2/static/media/Section-1-Picaso.e5c5892588e518bb388e.png",
     "static/media/Section-1-Big-View.png": "/big-sight2/static/media/Section-1-Big-View.ebe3a5e79b9f77f182e8.png",
@@ -28,12 +29,12 @@
     "static/media/Section-1-SmartEye.png": "/big-sight2/static/media/Section-1-SmartEye.70c16beae645cbf09d83.png",
     "static/media/LogoBigSight.png": "/big-sight2/static/media/LogoBigSight.eec7379f9a20cd3af23f.png",
     "index.html": "/big-sight2/index.html",
-    "main.cced5ca5.css.map": "/big-sight2/static/css/main.cced5ca5.css.map",
-    "main.06fa25c1.js.map": "/big-sight2/static/js/main.06fa25c1.js.map",
+    "main.027e1513.css.map": "/big-sight2/static/css/main.027e1513.css.map",
+    "main.b7bc50e5.js.map": "/big-sight2/static/js/main.b7bc50e5.js.map",
     "787.954dd6c8.chunk.js.map": "/big-sight2/static/js/787.954dd6c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cced5ca5.css",
-    "static/js/main.06fa25c1.js"
+    "static/css/main.027e1513.css",
+    "static/js/main.b7bc50e5.js"
   ]
 }
