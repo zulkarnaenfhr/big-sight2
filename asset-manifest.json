@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/big-sight2/static/css/main.9037e651.css",
-    "main.js": "/big-sight2/static/js/main.c05126d8.js",
+    "main.css": "/big-sight2/static/css/main.115beb72.css",
+    "main.js": "/big-sight2/static/js/main.7667e4c1.js",
     "static/js/787.954dd6c8.chunk.js": "/big-sight2/static/js/787.954dd6c8.chunk.js",
     "static/media/Poppins-Light.ttf": "/big-sight2/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
     "static/media/Poppins-Regular.ttf": "/big-sight2/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
@@ -12,20 +12,26 @@
     "static/media/NunitoSans-ExtraBold.ttf": "/big-sight2/static/media/NunitoSans-ExtraBold.910c4685fbefaf7b5410.ttf",
     "static/media/NunitoSans-Bold.ttf": "/big-sight2/static/media/NunitoSans-Bold.f2f18c2e01d2f39c18c9.ttf",
     "static/media/NunitoSans-SemiBold.ttf": "/big-sight2/static/media/NunitoSans-SemiBold.19a4b6461d900f20a9a6.ttf",
+    "static/media/Section-6-Seknat-Negara.png": "/big-sight2/static/media/Section-6-Seknat-Negara.218917ee3a1efb85b84c.png",
+    "static/media/Section-6-Kemenkes.png": "/big-sight2/static/media/Section-6-Kemenkes.8fdf64d7f3a3a1aeb43d.png",
     "static/media/Section-1-Picaso.png": "/big-sight2/static/media/Section-1-Picaso.e5c5892588e518bb388e.png",
     "static/media/Section-1-Big-View.png": "/big-sight2/static/media/Section-1-Big-View.ebe3a5e79b9f77f182e8.png",
     "static/media/Section-1-Legal-Analytic.png": "/big-sight2/static/media/Section-1-Legal-Analytic.b0a24d1cddf93dd56012.png",
+    "static/media/Section-6-Telkom-Indonesia.png": "/big-sight2/static/media/Section-6-Telkom-Indonesia.03fc5e29adcd1cc763a5.png",
+    "static/media/Section-6-AHM.png": "/big-sight2/static/media/Section-6-AHM.38c75502501ee0f18a4c.png",
+    "static/media/Section-6-Dishub.png": "/big-sight2/static/media/Section-6-Dishub.ab1ca90fb3511f3c1b73.png",
     "static/media/Section-1-Big-Score.png": "/big-sight2/static/media/Section-1-Big-Score.d60c5a9512057b988834.png",
+    "static/media/Section-6-Pertamina.png": "/big-sight2/static/media/Section-6-Pertamina.4a84783e94e61abd1125.png",
     "static/media/Section-1-Big-Box.png": "/big-sight2/static/media/Section-1-Big-Box.6e28808326cae48105ab.png",
     "static/media/Section-1-SmartEye.png": "/big-sight2/static/media/Section-1-SmartEye.70c16beae645cbf09d83.png",
     "static/media/LogoBigSight.png": "/big-sight2/static/media/LogoBigSight.eec7379f9a20cd3af23f.png",
     "index.html": "/big-sight2/index.html",
-    "main.9037e651.css.map": "/big-sight2/static/css/main.9037e651.css.map",
-    "main.c05126d8.js.map": "/big-sight2/static/js/main.c05126d8.js.map",
+    "main.115beb72.css.map": "/big-sight2/static/css/main.115beb72.css.map",
+    "main.7667e4c1.js.map": "/big-sight2/static/js/main.7667e4c1.js.map",
     "787.954dd6c8.chunk.js.map": "/big-sight2/static/js/787.954dd6c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9037e651.css",
-    "static/js/main.c05126d8.js"
+    "static/css/main.115beb72.css",
+    "static/js/main.7667e4c1.js"
   ]
 }
