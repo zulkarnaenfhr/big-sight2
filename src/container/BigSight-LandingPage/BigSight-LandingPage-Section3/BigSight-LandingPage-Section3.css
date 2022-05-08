@@ -10,6 +10,7 @@
     padding-top: 51px;
     font-size: 40px;
     font-family: poppins-700;
+    border: 1px solid red;
 }
 
 .BigSight-LandingPage-Section3-Desc {
@@ -18,6 +19,7 @@
     font-size: 17px;
     letter-spacing: 0.9px;
     font-family: poppins-400;
+    border: 1px solid red;
 }
 
 .BigSight-LandingPage-Section3-Button-Container {
@@ -26,6 +28,7 @@
     justify-content: center;
     margin-top: 50px;
     text-decoration: none;
+    border: 1px solid red;
 }
 
 .BigSight-LandingPage-Section3-Button {
