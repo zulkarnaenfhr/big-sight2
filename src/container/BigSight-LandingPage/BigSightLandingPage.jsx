@@ -18,7 +18,7 @@ class Bigsightlandingpage extends Component {
                 <div className="BigSightNavbar-Container">
                     <Navbarbigsight />
                 </div>
-                <Blankpages />
+                <BigsightLandingpageSection1 />
                 <div className="BigSight-LandingPage-Container-Section2-Section3">
                     <BigsightLandingpageSection2 />
                     <BigsightLandingpageSection3 />
