@@ -49,14 +49,26 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 992px) {
     #CardBigSightLandingPage {
         transform: scale(1);
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
     #CardBigSightLandingPage {
-        transform: scale(0.9);
+        transform: scale(0.85);
+    }
+}
+
+@media screen and (max-width: 632px) {
+    #CardBigSightLandingPage {
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #CardBigSightLandingPage {
+        transform: scale(1);
     }
 }
