@@ -21,10 +21,12 @@ class BigsightLandingpageSection2 extends Component {
             <div id="BigSightLandingPage-Section2">
                 <div className="BigSightLandingPage-Section2-Title-Container">
                     <div>
-                        <p className="BigSightLandingPage-Section2-Title1">
+                        <p data-aos="fade-up" data-aos-offset="100" className="BigSightLandingPage-Section2-Title1">
                             What we’re offering <br /> Services we’re providing to our clients
                         </p>
-                        <p className="BigSightLandingPage-Section2-Title2">EXPLORE OUR PRODUCT</p>
+                        <p data-aos="fade-up" data-aos-offset="100" className="BigSightLandingPage-Section2-Title2">
+                            EXPLORE OUR PRODUCT
+                        </p>
                     </div>
                 </div>
                 <Row>

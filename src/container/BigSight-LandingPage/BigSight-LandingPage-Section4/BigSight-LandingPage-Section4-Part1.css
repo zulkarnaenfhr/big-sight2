@@ -1,0 +1,35 @@
+#BigSightLandingPage-Section4-Part1 {
+    min-height: 602px;
+    width: 100vw;
+}
+
+.BigSightLandingPage-Section4-Part1-Title {
+    font-family: poppins-700;
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 158px;
+}
+
+.BigSightLandingPage-Section4-Part1-Photo-Row1 {
+    width: 100%;
+    height: auto;
+    max-width: 416px;
+    max-height: 277px;
+}
+
+.BigSightLandingPage-Section4-Part1-Photo-Row1-Container {
+    padding-top: 86px;
+}
+
+.BigSightLandingPage-Section4-Part1-ColumnContainer {
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.BigSightLandingPage-Section4-MarginTop {
+    padding-top: 40px;
+}

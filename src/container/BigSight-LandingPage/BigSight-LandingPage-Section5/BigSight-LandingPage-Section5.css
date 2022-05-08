@@ -144,7 +144,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .BigSight-LandingPage-Section5-Content-Container-Section2 {
         transform: scale(1);
     }
@@ -163,7 +163,7 @@
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
     .BigSight-LandingPage-Section5-Content-Container-Section2 {
         transform: scale(0.8);
     }
