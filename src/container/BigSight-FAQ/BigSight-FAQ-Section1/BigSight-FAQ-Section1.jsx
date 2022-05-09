@@ -1,4 +1,5 @@
 import { Component } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./BigSight-FAQ-Section1.css";
 
 export default class BigsightFaqSection1 extends Component {
@@ -7,15 +8,30 @@ export default class BigsightFaqSection1 extends Component {
       <div className="d-flex   align-items-center" id="BigSight-Faq-section1">
         <div className="container d-flex flex-sm-row flex-column p-sm-0 p-3 mt-4 mb-4">
           <div className="col-sm-4 col" id="BigSight-Faq-container-left">
-            <h1 className="text-center text-sm-start mb-sm-0 mb-3">FAQ</h1>
+            <h1
+              className="text-center text-sm-start mb-sm-0 mb-3"
+              data-aos="fade-right"
+              style={{
+                fontSize: "50px",
+                fontWeight: "700",
+                color: "rgba(72, 72, 72, 1)",
+              }}
+            >
+              FAQ
+            </h1>
           </div>
-          <div className="col-sm-8 col " id="BigSight-Faq-container-right">
+          <div
+            classNameName="col-sm-8 col"
+            id="BigSight-Faq-container-right"
+            style={{ width: "100%" }}
+            data-aos="fade-left"
+          >
             <div id="BigSight-Faq-Content container">
-              <div class="accordion" id="accordionExample">
-                <div class="accordion-item mb-3">
-                  <h2 class="accordion-header" id="headingOne">
+              <div className="accordion" id="accordionExample">
+                <div className="accordion-item mb-3">
+                  <h2 className="accordion-header" id="headingOne">
                     <button
-                      class="accordion-button collapsed"
+                      className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseOne"
@@ -27,27 +43,27 @@ export default class BigsightFaqSection1 extends Component {
                   </h2>
                   <div
                     id="collapseOne"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     aria-labelledby="headingOne"
                     data-bs-parent="#accordionExample"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                       <strong>This is the first item's accordion body.</strong>{" "}
                       It is shown by default, until the collapse plugin adds the
-                      appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
+                      appropriate classNamees that we use to style each element.
+                      These classNamees control the overall appearance, as well
+                      as the showing and hiding via CSS transitions. You can
+                      modify any of this with custom CSS or overriding our
+                      default variables. It's also worth noting that just about
+                      any HTML can go within the <code>.accordion-body</code>,
+                      though the transition does limit overflow.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item mb-3">
-                  <h2 class="accordion-header" id="headingTwo">
+                <div className="accordion-item mb-3">
+                  <h2 className="accordion-header" id="headingTwo">
                     <button
-                      class="accordion-button collapsed"
+                      className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseTwo"
@@ -59,27 +75,27 @@ export default class BigsightFaqSection1 extends Component {
                   </h2>
                   <div
                     id="collapseTwo"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     aria-labelledby="headingTwo"
                     data-bs-parent="#accordionExample"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                       <strong>This is the second item's accordion body.</strong>{" "}
                       It is hidden by default, until the collapse plugin adds
-                      the appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
+                      the appropriate classNamees that we use to style each
+                      element. These classNamees control the overall appearance,
+                      as well as the showing and hiding via CSS transitions. You
+                      can modify any of this with custom CSS or overriding our
+                      default variables. It's also worth noting that just about
+                      any HTML can go within the <code>.accordion-body</code>,
+                      though the transition does limit overflow.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item mb-3">
-                  <h2 class="accordion-header" id="headingThree">
+                <div className="accordion-item mb-3">
+                  <h2 className="accordion-header" id="headingThree">
                     <button
-                      class="accordion-button collapsed"
+                      className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseThree"
@@ -91,27 +107,27 @@ export default class BigsightFaqSection1 extends Component {
                   </h2>
                   <div
                     id="collapseThree"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     aria-labelledby="headingThree"
                     data-bs-parent="#accordionExample"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                       <strong>This is the third item's accordion body.</strong>{" "}
                       It is hidden by default, until the collapse plugin adds
-                      the appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
+                      the appropriate classNamees that we use to style each
+                      element. These classNamees control the overall appearance,
+                      as well as the showing and hiding via CSS transitions. You
+                      can modify any of this with custom CSS or overriding our
+                      default variables. It's also worth noting that just about
+                      any HTML can go within the <code>.accordion-body</code>,
+                      though the transition does limit overflow.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item mb-3">
-                  <h2 class="accordion-header" id="headingFour">
+                <div className="accordion-item mb-3">
+                  <h2 className="accordion-header" id="headingFour">
                     <button
-                      class="accordion-button collapsed"
+                      className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseFour"
@@ -123,20 +139,20 @@ export default class BigsightFaqSection1 extends Component {
                   </h2>
                   <div
                     id="collapseFour"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     aria-labelledby="headingFour"
                     data-bs-parent="#accordionExample"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                       <strong>This is the third item's accordion body.</strong>{" "}
                       It is hidden by default, until the collapse plugin adds
-                      the appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
+                      the appropriate classNamees that we use to style each
+                      element. These classNamees control the overall appearance,
+                      as well as the showing and hiding via CSS transitions. You
+                      can modify any of this with custom CSS or overriding our
+                      default variables. It's also worth noting that just about
+                      any HTML can go within the <code>.accordion-body</code>,
+                      though the transition does limit overflow.
                     </div>
                   </div>
                 </div>

@@ -13,9 +13,16 @@
 
 .accordion-button {
     border: 1.5px solid rgb(211, 74, 74);
-    /* border-radius: 10px; */
+    border-radius: 10px;
     color: rgba(211, 74, 74, 1);
     font-weight: 700;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed,
+.accordion-item:first-of-type .accordion-button,
+.accordion-item:first-of-type,
+.accordion-item {
+    border-radius: 10px;
 }
 
 
